@@ -1,0 +1,65 @@
+{
+  "validation": {
+    "runners": [
+      {
+        "successes": [
+          {
+            "type": "compilation",
+            "info": "Compilation succeeded",
+            "file_path": "test/resources/sample_projects/less_simple_maths_project/src/main.cpp"
+          }
+        ],
+        "failures": [],
+        "errors": [],
+        "runner_key": "c++:validation"
+      }
+    ],
+    "passed": true
+  },
+  "evaluation": {
+    "runners": [
+      {
+        "successes": [
+          {
+            "test_name": "test_sum",
+            "test_description": "",
+            "file_path": "test/resources/sample_projects/less_simple_maths_project/src/main.cpp",
+            "test_type": "primary",
+            "function_tested__name": "sum",
+            "function_tested__description": ""
+          }
+        ],
+        "failures": [
+          {
+            "info": "assert",
+            "details": "",
+            "test_name": "test_complicated_factorial",
+            "test_description": "",
+            "file_path": "test/resources/sample_projects/less_simple_maths_project/src/main.cpp",
+            "test_type": "primary",
+            "function_tested__name": "complicated_factorial",
+            "function_tested__description": ""
+          },
+          {
+            "info": "assert",
+            "details": "",
+            "test_name": "test_very_complicated_factorial",
+            "test_description": "",
+            "file_path": "test/resources/sample_projects/less_simple_maths_project/src/main.cpp",
+            "test_type": "primary",
+            "function_tested__name": "very_complicated_factorial",
+            "function_tested__description": ""
+          }
+        ],
+        "errors": [],
+        "tests_run": 3,
+        "runner_key": "testcases"
+      }
+    ],
+    "passed": false
+  },
+  "quality": {
+    "runners": []
+  },
+  "score": 70.0
+}

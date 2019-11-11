@@ -1,0 +1,7 @@
+files:
+  - src/main.cpp
+  - src/utils.cpp
+restricted_libraries:
+  src/main.cpp:
+    - cmath # so these refer to the same libraries, though we may have to blacklist both implementation dependent.
+    - math.h
